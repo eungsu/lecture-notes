@@ -63,7 +63,7 @@ graph LR
     A[데이터 소스] -->|Stream| B[중간연산 1]
     B --> C[중간연산 2]
     C --> D[중간연산 n]
-    D -->|최종 연산| E[Output]
+    D -->|최종 연산| E[출력]
     subgraph "중간연산"
         B --> C
         C --> D
